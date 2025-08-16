@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import projectData from "../data/projects-data.json";
-import { CursorTextContext } from "../hooks/cursor-provider";
+import { CursorTextContext } from "../hooks/cursor-provider.jsx";
 import { useEffect } from "react";
-import { Display, Header1 } from "../components/typography/typography";
-import { RotatingTextDisplay } from "../components/rotating-text/rotating-Text";
+import { Display, Header1 } from "../components/typography/typography.jsx";
+import { RotatingTextDisplay } from "../components/rotating-text/rotating-text.jsx";
 import { Project } from "../components/project/project";
 
 function Index() {

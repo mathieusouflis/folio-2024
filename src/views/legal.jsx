@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { CursorTextContext } from "../hooks/cursor-provider";
+import { CursorTextContext } from "../hooks/cursor-provider.jsx";
 import { useEffect } from "react";
-import { Body } from "../components/typography/typography";
+import { Body } from "../components/typography/typography.jsx";
 
 const Legal = () => {
   const { setText } = useContext(CursorTextContext);

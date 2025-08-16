@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CursorTextContext } from "../../hooks/cursor-provider";
 import { LinkWithLoader } from "../loader/link-loader";
 import { Details, Header2 } from "../typography/typography";
-import { Video } from "../video/Video";
+import { Video } from "../video/video";
 
 
 const Project = ({

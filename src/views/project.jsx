@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { Body, BodySemibold, Display } from "../components/typography/typography";
-import { CursorTextContext } from "../hooks/cursor-provider";
+import { Body, BodySemibold, Display } from "../components/typography/typography.jsx";
+import { CursorTextContext } from "../hooks/cursor-provider.jsx";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import { Video } from "../components/video/Video";
-import { Cta } from "../components/cta/cta";
-import { LinkWithLoader } from "../components/loader/link-loader";
+import { Video } from "../components/video/video.jsx";
+import { Cta } from "../components/cta/cta.jsx";
+import { LinkWithLoader } from "../components/loader/link-loader.jsx";
 import projectsData from '../data/projects-data.json';
 
 const DescriptionElement = ({ title, content, className }) => {

@@ -1,15 +1,15 @@
 import ReactLenis from "lenis/react";
-import { Loader } from "./components/loader/Loader";
-import { FollowCursor } from "./components/cursor/cursor";
-import { Nav } from "./components/nav/Nav";
+import { Loader } from "./components/loader/loader.jsx";
+import { FollowCursor } from "./components/cursor/cursor.jsx";
+import { Nav } from "./components/nav/nav.jsx";
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import { Footer } from "./components/footer/footer";
-import { LoaderProvider } from "./hooks/loader-provider";
-import { CursorProvider } from "./hooks/cursor-provider";
-import { Index } from "./views";
-import { About } from "./views/about";
-import { ProjectPage } from "./views/project";
-import { Legal } from "./views/legal";
+import { Footer } from "./components/footer/footer.jsx";
+import { LoaderProvider } from "./hooks/loader-provider.jsx";
+import { CursorProvider } from "./hooks/cursor-provider.jsx";
+import { Index } from "./views/index.jsx";
+import { About } from "./views/about.jsx";
+import { ProjectPage } from "./views/project.jsx";
+import { Legal } from "./views/legal.jsx";
 import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 
