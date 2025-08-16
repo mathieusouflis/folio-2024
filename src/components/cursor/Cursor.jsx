@@ -1,8 +1,8 @@
-import { useEffect, useContext } from "react";
-import { CursorTextContext } from "../../hooks/cursor-provider";
+import { useEffect, useContext, useState } from "react";
+import { CursorTextContext } from "../../hooks/cursorProvider";
 import { Details } from "../typography/typography";
 
-const FollowCursor = () => {
+const Cursor = () => {
   const { text } = useContext(CursorTextContext);
 
   const onMouseMove = (e) => {
@@ -30,4 +30,4 @@ const FollowCursor = () => {
   );
 }
 
-export {FollowCursor};
+export default Cursor;

@@ -1,6 +1,6 @@
-import { Cta } from "../cta/cta";
-import { Icon } from "../icons/icon";
-import { LinkWithLoader } from "../loader/link-loader";
+import Cta from "../cta/Cta";
+import Icon from "../icons/Icon";
+import LinkWithLoader from "../loader/LinkLoader";
 
 const Nav = () => {
     return (
@@ -18,4 +18,4 @@ const Nav = () => {
     );
 }
 
-export {Nav};
+export default Nav;

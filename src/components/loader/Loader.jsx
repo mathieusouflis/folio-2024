@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef, useContext } from "react";
-import { useSearchParams } from "react-router-dom";
-import { LoaderContext } from "../../hooks/loader-provider";
 import { Display } from "../typography/typography";
+import { LoaderContext } from "../../hooks/loaderProvider";
+import { useSearchParams } from "react-router-dom";
 
 const Loader = () => {
     const [position, setPosition] = useState(false);
@@ -63,4 +63,4 @@ const Loader = () => {
     );
 }
 
-export {Loader};
+export default Loader;

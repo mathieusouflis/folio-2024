@@ -1,0 +1,131 @@
+{
+    "redit-design-system": {
+        "title": "Redit Design System",
+        "date": 2025,
+        "url": "https://www.figma.com/design/0Fa3CakIA20tN4TxLMGhzn/Design-System?node-id=8830-5328&t=tlRQWfDr2CkLV13v-1",
+        "description": "Our project focused on creating a Design System to ensure consistency and flexibility. We began by analyzing interfaces and capturing screens to identify key components and states. Benchmarking existing Design Systems helped us refine our approach. We designed modular components using variables for adaptability and coherence. An interactive prototype was then developed, integrating a light and dark theme system to showcase the Design System's practical application. This process resulted in a scalable and cohesive interface, balancing aesthetics and technical efficiency.",
+        "types": ["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Finised",
+        "collaborators": [],
+        "cover": "/assets/Project-Assets/RedditDS/Cover.png",
+        "images": [
+            ["Inspiration", "/assets/Project-Assets/RedditDS/Inspiration.png"],
+            ["Colors", "/assets/Project-Assets/RedditDS/Colors.png"],
+            ["Icons", "/assets/Project-Assets/RedditDS/Icons.png"],
+            ["Typography", "/assets/Project-Assets/RedditDS/Typo.png"],
+            ["Utilities", "/assets/Project-Assets/RedditDS/Utilities.png"],
+            ["App Headers", "/assets/Project-Assets/RedditDS/AppHeaders.png"],
+            ["Badges", "/assets/Project-Assets/RedditDS/Badges.png"],
+            ["Users", "/assets/Project-Assets/RedditDS/User.png"],
+            ["Logo", "/assets/Project-Assets/RedditDS/Logo.png"],
+            ["Buttons", "/assets/Project-Assets/RedditDS/Buttons.png"],
+            ["Caroussel", "/assets/Project-Assets/RedditDS/Carousel.png"],
+            ["Switch", "/assets/Project-Assets/RedditDS/Switch.png"],
+            ["Tabs", "/assets/Project-Assets/RedditDS/Tabs.png"],
+            ["Inputs", "/assets/Project-Assets/RedditDS/Inputs.png"],
+            ["Search", "/assets/Project-Assets/RedditDS/Search.png"],
+            ["Components", "/assets/Project-Assets/RedditDS/Components.png"],
+            ["Vues", "/assets/Project-Assets/RedditDS/Vues.png"]
+        ],
+        "next": "nova"
+    },
+    "nova": {
+        "title": "Nova",
+        "date": 2024,
+        "url": "https://nova.mathieusouflis.com/",
+        "description": "Nova is the foundation of a social network I developed during the holidays in just a few weeks. The project consists of a full-stack web application with a focus on user experience and efficient data management. The platform includes features such as user authentication, likes, comments, followers. This project allowed me to apply my skills in React, Express, Node.js, MongoDB, and PostgreSQL to create a responsive and engaging social media platform.",
+        "types": ["Fullstack"],
+        "technologies": ["React", "Express", "Node.js", "MongoDB", "PosgreSQL", "Prisma"],
+        "status": "---",
+        "collaborators": [],
+        "cover": "https://player.vimeo.com/video/1043086725",
+        "images": [
+            ["Register", "https://player.vimeo.com/video/1043086692"],
+            ["Login", "https://player.vimeo.com/video/1043086697"],
+            ["Feed - Post", "https://player.vimeo.com/video/1043086705"],
+            ["Comments", "https://player.vimeo.com/video/1043086709"],
+            ["Profile", "https://player.vimeo.com/video/1043086713"],
+            ["The App", "https://player.vimeo.com/video/1043086725"]
+        ],
+        "next": "deleguee"
+    },
+    "deleguee": {
+        "title": "Deleguee",
+        "date": 2024,
+        "url": "",
+        "description": "Deleguee is a presentation I created with a colleague to introduce ourselves as delegates for our promotion at HETIC. The project was made with Three.js to create an interactive, visually engaging experience. We used 3D animations and transitions to present our backgrounds, responsibilities, and vision for the role. This project helped us demonstrate our creative and technical skills while providing an immersive experience for the audience.",
+        "types": ["Frontend","Creative"],
+        "technologies": ["React", "ThreeJS"],
+        "status": "Finished",
+        "collaborators": ["Noa Miramont"],
+        "cover": "https://player.vimeo.com/video/1043086457",
+        "images": [
+            ["Introduction", "https://player.vimeo.com/video/1043086272"],
+            ["Transition", "https://player.vimeo.com/video/1043086276"],
+            ["Presentation", "https://player.vimeo.com/video/1043086385"],
+            ["Ending", "https://player.vimeo.com/video/1043086390"],
+            ["Full Presentation", "https://player.vimeo.com/video/1043086457"]
+        ],
+        "next": "music-player"
+    },
+    "music-player": {
+        "title": "Music Player",
+        "date": 2024,
+        "url": "",
+        "description": "Music Player is a concept I designed at HETIC for a music player app with a sleek, minimalist interface. The design focuses on user interaction and visual appeal, ensuring an intuitive experience for browsing and playing music. The project was created with Figma, and I focused on creating a smooth, modern interface with dynamic features such as a queue, playlists, and playback controls.",
+        "types":["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Finished",
+        "collaborators": [],
+        "cover": "https://player.vimeo.com/video/1043086890",
+        "images": [
+            ["Player", "https://player.vimeo.com/video/1043086747"],
+            ["Queue", "https://player.vimeo.com/video/1043086765"],
+            ["Path", "https://player.vimeo.com/video/1043086773"],
+            ["Full Vidéo", "https://player.vimeo.com/video/1043086890"]
+        ],
+
+        "next": "ai-research"
+    },
+    "ai-research": {
+        "title": "AI Research",
+        "date": 2024,
+        "url": "https://ai-project.mathieusouflis.com/",
+        "description": "AI Research is a deliverable from a project I worked on at HETIC that focused on AI and image generation. The project involved researching various AI technologies and integrating them into a web application. We explored image generation techniques and provided tutorials and benchmarks for users to understand the AI's capabilities. This project allowed me to gain insights into the rapidly advancing field of artificial intelligence and apply them in a practical setting. (The website is working well only on computer)",
+        "types": ["Frontend"],
+        "technologies": ["React"],
+        "status": "Finished",
+        "collaborators": [],
+        "cover": "https://player.vimeo.com/video/1043086147",
+        "images": [
+            ["Homepage", "https://player.vimeo.com/video/1043086022"],
+            ["Benchmark", "https://player.vimeo.com/video/1043086026"],
+            ["Research", "https://player.vimeo.com/video/1043086038"],
+            ["Tutorial", "https://player.vimeo.com/video/1043086063"],
+            ["Exploration", "https://player.vimeo.com/video/1043086085"],
+            ["Crew", "https://player.vimeo.com/video/1043086110"],
+            ["Full Video", "https://player.vimeo.com/video/1043086147"]
+        ],
+
+        "next": "lao-cha"
+    },
+    "lao-cha": {
+        "title": "Lao Cha",
+        "date": 2024,
+        "url": "",
+        "description": "Lao Cha was a project aimed at designing a themed tea salon and creating a user persona for it. Unfortunately, the project was canceled. We were tasked with designing the salon's atmosphere and crafting a brand identity that matched the theme of the tea salon.",
+        "types": ["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Canceled",
+        "collaborators": [],
+        "cover": "https://player.vimeo.com/video/1043086684",
+        "images": [
+            ["Hero header", "https://player.vimeo.com/video/1043086684"],
+            ["Homepage Wireframe", "/assets/Project-Assets/LAO CHA/LAO CHA HOME PAGE MOCKUP.png"],
+            ["Register Wireframe", "/assets/Project-Assets/LAO CHA/LAO CHA NAVBAR MOCKUP.png"]
+        ],
+
+        "next": "redit-design-system"
+    }
+}
