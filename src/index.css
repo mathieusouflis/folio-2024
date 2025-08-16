@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/sci0pdh.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Evafiya";
+    src: url("./assets/fonts/Evafiya.ttf");
+}
+@font-face {
+    font-family: "Geist";
+    src: url("/assets/fonts/Geist.ttf");
+}
+
+body {
+    background-color: white;
+}
