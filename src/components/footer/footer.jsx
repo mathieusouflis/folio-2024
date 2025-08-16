@@ -1,15 +1,15 @@
-import Cta from "../cta/Cta";
-import Icon from "../icons/Icon";
-import { Body, Display } from "../typography/typography";
 import { useContext } from "react";
-import { CursorTextContext } from "../../hooks/cursorProvider";
-import LinkWithLoader from "../loader/LinkLoader";
+import { CursorTextContext } from "../../hooks/cursor-provider";
+import { Body, Display } from "../typography/typography";
 import { Link } from "react-router-dom";
+import { LinkWithLoader } from "../loader/link-loader";
+import { Icon } from "../icons/icon";
+import { Cta } from "../cta/cta";
 
 const Footer = () => {
 
     const {setText} = useContext(CursorTextContext);
-    
+
     return (
         <footer className="flex flex-col gap-20 px-[10px] py-6 justify-center items-center">
                     <div className="flex flex-row gap-[10px] w-full items-center ">
@@ -48,4 +48,4 @@ const Footer = () => {
     );
 }
 
-export default Footer
+export {Footer}

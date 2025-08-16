@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LoaderContext } from '../../hooks/loaderProvider';
+import { LoaderContext } from '../../hooks/loader-provider';
 
 const LinkWithLoader = ({ to, className="", children, ...props }) => {
     const {setNavigateStatus} = useContext(LoaderContext);
@@ -24,4 +24,4 @@ const LinkWithLoader = ({ to, className="", children, ...props }) => {
     );
 };
 
-export default LinkWithLoader;
+export  {LinkWithLoader};

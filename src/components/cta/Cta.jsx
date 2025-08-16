@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Icon from "../icons/Icon";
+import { Icon } from "../icons/icon";
+import { LinkWithLoader } from "../loader/link-loader";
 import { Body } from "../typography/typography";
-import LinkWithLoader from "../loader/LinkLoader";
 
 const Cta = ({ URL = "", iconName = null, className, loader = true, children, ...props }) => {
 
@@ -16,4 +16,4 @@ const Cta = ({ URL = "", iconName = null, className, loader = true, children, ..
     );
 }
 
-export default Cta
+export {Cta}

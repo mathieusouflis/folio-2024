@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import { Display } from "../typography/typography";
-  
-const RotatingText = () => {
+
+const RotatingTextDisplay = () => {
     const [index, setIndex] = useState(0);
     const texts = [
         ['UX / UI', "Designer"],
@@ -28,4 +29,4 @@ const RotatingText = () => {
 
 }
 
-export default RotatingText
+export {RotatingTextDisplay}
